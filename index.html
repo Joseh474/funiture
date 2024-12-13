@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== Css link ==========-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <!--========== Google Fonts ==========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+
+
+    <!--========== Icons ==========-->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--========== Font Awesome Icons ==========-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Furniture website</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <!-- left side menu -->
+            <div class="left-side-menu">
+                <div class="logo">
+                    <img src="img/furniture-logo.png" alt="KAMOMO FURNITURE">
+                   
+                </div>
+
+                <div class="sub-menu">
+                    <ul>
+                        <li> <a href="index.html" class="active"> <ins> Home </ins></a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="nav__link"> About </a>
+                        </li>
+
+                        <li>
+                            <a href="#ourcollection" class="nav__link">Collection</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="right-side-menu">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- --------------------------Home section ---------------------------- -->
+    <section class="main">
+        <!-- left side menu -->
+
+        <div class="main-left">
+            <span class="brand-tag"></span>
+            <h1>MODERN <br> FURNITURE <br> DESIGNS. </h1>
+            <P>Transform your living space with our exclusive collection of contemporary furniture. Crafted with precision and style for your modern home.</P>
+
+            <div class="button-group">
+                <a href="#ourcollection" class="common-button">SHOP NOW</a>
+            </div>
+            <div class="main-left-social">
+                <a href=""><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp" style="color: #000000;"></i></a>
+            </div>
+        </div>
+        <!-- right side menu -->
+
+        <div class="main-right">
+
+            <img src="img/background.jpg" alt="">
+        </div>
+
+        <div class="right-chair">
+            <img src="img/chair.png" alt="">
+        </div>
+
+
+    </section>
+
+
+
+    <!-- --------------------------about section ---------------------------- -->
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <!-- left side -->
+            <div class="left-side">
+                <figure>
+                    <img src="img/10 Stylish Ways of Hiding Storage in Plain Sight.jpeg" alt="Custom Furniture Craftsmanship">
+                </figure>
+                <div class="experience-badge">
+                    <span class="years">20+</span>
+                    <span class="text">Years of Excellence</span>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="right-side">
+                <span class="subtitle">Why Choose Us</span>
+                <h2>Crafting Your Dream Furniture</h2>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Custom Design</h3>
+                        <p>We create bespoke furniture tailored to your exact specifications and style preferences.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="fas fa-gem"></i>
+                        <h3>Premium Quality</h3>
+                        <p>Using only the finest materials to ensure durability and lasting beauty in every piece.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Personal Service</h3>
+                        <p>Our expert craftsmen work closely with you from design to delivery.</p>
+                    </div>
+                </div>
+
+                <p class="main-description">With over two decades of experience, we specialize in creating custom furniture that perfectly matches your vision and space. Each piece is meticulously crafted to order, ensuring that you receive exactly what you've dreamed of.</p>
+
+                <p class="highlight-text">✓ Free design consultation<br>
+                ✓ Custom size and finish options<br>
+                ✓ Expert craftsmanship guarantee</p>
+
+                <div class="cta-buttons">
+                    <a href="#contact" class="primary-btn">Schedule Consultation</a>
+                    <a href="#ourcollection" class="secondary-btn">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------our collection ---------------------------- -->
+
+    <section class="ourcollection" id="ourcollection">
+        <h2>Our Collections</h2>
+        
+        <!-- Search Bar --->
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search furniture...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </div>
+
+        <!-- Category Navigation -->
+        <div class="category-nav">
+            <button class="category-btn active" data-category="living"><span>Living Room</span></button>
+            <button class="category-btn" data-category="bedroom"><span>Bedroom</span></button>
+            <button class="category-btn" data-category="dining"><span>Dining Room</span></button>
+            <button class="category-btn" data-category="office"><span>Office</span></button>
+            <button class="category-btn" data-category="kitchen"><span>Kitchen</span></button>
+            <button class="category-btn" data-category="outdoor"><span>Outdoor</span></button>
+        </div>
+
+        <!-- Living Room Section -->
+        <div class="collection-category active" id="living">
+            <h3>Living Room Furniture</h3>
+            <div class="subcategory-nav">
+                <button class="subcategory-btn active" data-type="sofas"><span>Sofas & Couches</span></button>
+                <button class="subcategory-btn" data-type="tables"><span>Coffee Tables</span></button>
+                <button class="subcategory-btn" data-type="tvstands"><span>TV Stands</span></button>
+                <button class="subcategory-btn" data-type="chairs"><span>Accent Chairs</span></button>
+                <button class="subcategory-btn" data-type="shelves"><span>Bookcases</span></button>
+            </div>
+            
+            <!-- Sofas Grid -->
+            <div class="collection-grid active" data-type="sofas">
+                <div class="collection-item">
+                    <img src="img/s1.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s2.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s3.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s5.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/f3.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+
+                <div class="collection-item">
+                    <img src="img/s2.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s3.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s5.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/f3.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s6.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s7.jpeg" alt="Modern Sofa">
+                    <h4>Modern Comfort Sofa</h4>
+                    <p class="item-name">3-Seater Luxury Sofa</p>
+                    <p class="item-price">Starting from $1,299</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/s8.jpeg" alt="Leather Sofa">
+                    <h4>Premium Leather Sofa</h4>
+                    <p class="item-name">2-Seater Recliner</p>
+                    <p class="item-price">Starting from $1,499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Coffee Tables Grid -->
+            <div class="collection-grid" data-type="tables">
+                <div class="collection-item">
+                    <img src="img/c1.jpeg" alt="Glass Coffee Table">
+                    <h4>Modern Glass Table</h4>
+                    <p class="item-name">Contemporary Design</p>
+                    <p class="item-price">Starting from $399</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c2.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c3.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c4.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c5.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c6.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c7.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/c8.jpeg" alt="Wooden Coffee Table">
+                    <h4>Rustic Wood Table</h4>
+                    <p class="item-name">Solid Oak Design</p>
+                    <p class="item-price">Starting from $499</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- TV Stands Grid -->
+            <div class="collection-grid" data-type="tvstands">
+                <div class="collection-item">
+                    <img src="img/t1.jpeg" alt="Modern TV Stand">
+                    <h4>Modern Entertainment Unit</h4>
+                    <p class="item-name">With Storage</p>
+                    <p class="item-price">Starting from $799</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/t2.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/t3.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/t4.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/t5.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/t6.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/t7.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+
+                <div class="collection-item">
+                    <img src="img/t8.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+
+                <div class="collection-item">
+                    <img src="img/t9.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+
+                <div class="collection-item">
+                    <img src="img/t10.jpeg" alt="Wall TV Unit">
+                    <h4>Wall-Mounted TV Unit</h4>
+                    <p class="item-name">Floating Design</p>
+                    <p class="item-price">Starting from $899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Accent Chairs Grid -->
+            <div class="collection-grid" data-type="chairs">
+                <div class="collection-item">
+                    <img src="img/a1.jpeg" alt="Accent Chair">
+                    <h4>Designer Accent Chair</h4>
+                    <p class="item-name">Velvet Finish</p>
+                    <p class="item-price">Starting from $599</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                
+                <div class="collection-item">
+                    <img src="img/a2.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/a3.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/a3.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/a3.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/a4.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/a4.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/a6.jpeg" alt="Lounge Chair">
+                    <h4>Modern Lounge Chair</h4>
+                    <p class="item-name">With Ottoman</p>
+                    <p class="item-price">Starting from $699</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bookcases Grid -->
+            <div class="collection-grid" data-type="shelves">
+                <div class="collection-item">
+                    <img src="img/b1.jpeg" alt="Modern Bookcase">
+                    <h4>Modern Bookshelf</h4>
+                    <p class="item-name">5-Tier Design</p>
+                    <p class="item-price">Starting from $399</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/b2.jpeg" alt="Corner Bookcase">
+                    <h4>Corner Bookcase</h4>
+                    <p class="item-name">Space Saving Design</p>
+                    <p class="item-price">Starting from $449</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    25<img src="img/b3.jpeg" alt="Corner Bookcase">
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/b5.jpeg" alt="Corner Bookcase">
+                    <h4>Corner Bookcase</h4>
+                    <p class="item-name">Space Saving Design</p>
+                    <p class="item-price">Starting from $449</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/b6.jpeg" alt="Corner Bookcase">
+                    <h4>Corner Bookcase</h4>
+                    <p class="item-name">Space Saving Design</p>
+                    <p class="item-price">Starting from $449</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/b7.jpeg" alt="Corner Bookcase">
+                    <h4>Corner Bookcase</h4>
+                    <p class="item-name">Space Saving Design</p>
+                    <p class="item-price">Starting from $449</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+              
+                <div class="collection-item">
+                    <img src="img/b8.jpeg" alt="Corner Bookcase">
+                    <h4>Corner Bookcase</h4>
+                    <p class="item-name">Space Saving Design</p>
+                    <p class="item-price">Starting from $449</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bedroom Section -->
+        <div class="collection-category" id="bedroom">
+            <h3>Bedroom Furniture</h3>
+            <div class="subcategory-nav">
+                <button class="subcategory-btn active" data-type="beds">Beds</button>
+                <button class="subcategory-btn" data-type="nightstands">Nightstands</button>
+                <button class="subcategory-btn" data-type="dressers">Dressers</button>
+                <button class="subcategory-btn" data-type="wardrobes">Wardrobes</button>
+                <button class="subcategory-btn" data-type="vanities">Vanities</button>
+            </div>
+            
+            <div class="collection-grid active" data-type="beds">
+                <div class="collection-item">
+                    <img src="img/f3.jpeg" alt="King Bed">
+                    <h4>Luxury King Bed</h4>
+                    <p class="item-name">Premium King Size Bed</p>
+                    <p class="item-price">Starting from $1,899</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+                <div class="collection-item">
+                    <img src="img/f4.jpeg" alt="Queen Bed">
+                    <h4>Modern Queen Bed</h4>
+                    <p class="item-name">Contemporary Design</p>
+                    <p class="item-price">Starting from $1,599</p>
+                    <a href="https://wa.me/+15551234567" class="inquire-btn">
+                        <i class="fab fa-whatsapp"></i> Inquire Now
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add similar structures for other main categories -->
+    </section>
+
+    <!-- --------------------------our support ---------------------------- -->
+
+    <section class="our-support" id="oursupport">
+        <h2>Our Support</h2>
+
+
+        <div class="our-support-task">
+
+            <div class="task-1">
+                <img src="img/customer-service.png" alt="icon1">
+
+            </div>
+
+
+            <div class="task-2">
+                <img src="img/payment-method.png" alt="icon2">
+
+            </div>
+
+
+            <div class="task-3">
+                <img src="img/secure-shield.png" alt="icon3">
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- --------------------------dicount section ---------------------------- -->
+
+    <section class="dicount-section" id="dicount">
+        <h2>Subscribe for Exclusive Offers</h2>
+        <p>Join our newsletter to receive updates on new collections, special promotions, and interior design tips. Get 10% off your first purchase!</p>
+        <br>
+        <div class="searchbar">
+
+            <input type="search" placeholder="Enter your email address...">
+            <a href="#"><i class="fa fa-search icon-search"></i></a>
+        </div>
+
+    </section>
+
+    <!-- --------------------------brand section ---------------------------- -->
+
+    <section class="brand-section" id="brand">
+        <h2>Our Brands Partners</h2>
+
+        <div class="brand-img">
+
+            <div class="img-1">
+                <img src="img/royale-touche.jpg" alt="">
+
+            </div>
+            <div class="img-2">
+                <img src="img/centuryply.png" alt="">
+
+            </div>
+            <div class="img-3">
+                <img src="img/greenply.jpg" alt="">
+
+            </div>
+            <div class="img-4">
+                <img src="img/merino.png" alt="">
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- --------------------------testimonials section ---------------------------- -->
+
+    <section class="testimonials">
+        <div class="testimonial-container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <img src="img/customer1.jpg" alt="Customer 1">
+                    <p>"The quality and craftsmanship of my new dining set is outstanding. The customer service team was incredibly helpful throughout the entire process."</p>
+                    <h4>Sarah Johnson</h4>
+                    <span>Interior Designer</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="img/customer2.jpg" alt="Customer 2">
+                    <p>"I furnished my entire living room with their collection. The modern designs and comfort level exceeded my expectations. Highly recommended!"</p>
+                    <h4>Michael Brown</h4>
+                    <span>Home Owner</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="img/customer3.jpg" alt="Customer 3">
+                    <p>"The attention to detail and quality of materials used is remarkable. Their furniture has completely transformed my space."</p>
+                    <h4>Emily Davis</h4>
+                    <span>Architect</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------Contact section ---------------------------- -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <h2>Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Location</h3>
+                        <p>123 Furniture Street</p>
+                        <p>Nairobi, Kenya</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone Number</h3>
+                        <p>+1 (555) 123-4567</p>
+                        <p>+1 (555) 987-6543</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Address</h3>
+                        <p>info@furnitureshop.com</p>
+                        <p>support@furnitureshop.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p>Sat: 10:00 AM - 4:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------Footer section ---------------------------- -->
+
+    <footer>
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="img/furniture-logo.png" alt="KAMOMO FURNITURE">
+                       
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>ABOUT US</h4>
+                    <ul>
+                        <li><a href="">Special Offers</a></li>
+                        <li><a href="">Design Services</a></li>
+                        <li><a href="">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>CUSTOMER CARE</h4>
+                    <ul>
+                        <li><a href="">Track Orders</a></li>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <div class="contact">
+                        <ul>
+                            <li><a href=""> <i class="fa-solid fa-phone-volume"></i>+1 (555) 123-4567</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="name-container">
+            <p>All rights reserved | By @sejosoft</p>
+        </div>
+    </footer>
+
+    <!-- Add before your main script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="javascript/script.js"></script>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption"></div>
+    </div>
+</body>
+
+</html>
